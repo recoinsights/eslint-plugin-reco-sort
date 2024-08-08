@@ -3,6 +3,7 @@ import alphabetizeEnums from "./lib/rules/alphabetize-enums";
 
 export default {
     rules: {
-        alphabetizeArrays, alphabetizeEnums
+        alphabetizeArrays,
+        alphabetizeEnums,
     },
 };

@@ -6,7 +6,7 @@
   "main": "lib/index.js",
   "module": "lib/index.mjs",
   "scripts": {
-    "build": "tsc --declaration --emitDeclarationOnly --project tsconfig.prod.json && ts-node .bin/build.ts",
+    "build": "tsc --project tsconfig.prod.json",
     "eslint": "eslint 'src/**/*.{js,ts,tsx}' 'test/**/*.{js,ts,tsx}'",
     "eslint:fix": "npm run eslint -- --fix",
     "prettier": "prettier 'src/**/*.{js,ts,tsx}' 'test/**/*.{js,ts,tsx}'",
