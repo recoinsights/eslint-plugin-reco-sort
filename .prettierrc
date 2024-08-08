@@ -1,0 +1,8 @@
+{
+  "printWidth": 120,
+  "trailingComma": "all",
+  "parser": "typescript",
+  "tabWidth": 4,
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
