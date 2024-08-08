@@ -13,7 +13,7 @@ export default {
                         fix(fixer: any) {
                             const sourceCode = context.getSourceCode();
                             // Generate the fixed enum string
-                            const sortedEnumText = node.membersgit
+                            const sortedEnumText = node.members
                                 .map((_: any, index: any) => {
                                     const originalIndex = enumKeys.indexOf(sortedKeys[index]);
                                     return sourceCode.getText(node.members[originalIndex]);

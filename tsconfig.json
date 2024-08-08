@@ -1,10 +1,15 @@
 {
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
     "lib": ["ESNext"],
+    "module": "ESNext",
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "removeComments": true,
+    "rootDir": "src",
     "skipLibCheck": true,
     "strict": true,
     "strictNullChecks": true,
@@ -15,5 +20,5 @@
   "include": [".bin/**/*.ts", "src/**/*.ts"],
   "exclude": [
     "node_modules/**/*",
-  ],
+  ]
 }
