@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-reco-sort",
+  "name": "@recoinsights/eslint-plugin-reco-sort",
   "version": "1.0.0",
   "description": "An ESLint plugin for sorting things",
   "author": "Re:Co Insights",
